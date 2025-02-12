@@ -1,6 +1,6 @@
 package com.leverx.course;
 
-public class Operators {
+public class BitwiseOperators {
 
     //int -> 32 bits
     static int A = 9;  // 1001
