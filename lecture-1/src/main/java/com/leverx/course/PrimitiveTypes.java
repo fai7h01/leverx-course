@@ -16,6 +16,6 @@ public class PrimitiveTypes {
     boolean bool = true;                // it's JVM dependent, usually its 1 byte
 
     byte b2 = 126 / 2; // int divided to int is int, and since value int fits in byte, casting happens automatically
-    //byte b3 = b / 2; // JVM does not know about b in compile time so explicit casting is needed
+    //byte b3 = B / 2; // JVM does not know about B in compile time so explicit casting is needed
     byte b3 = (byte) (b / 2);
 }

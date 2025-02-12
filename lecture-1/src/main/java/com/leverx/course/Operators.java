@@ -2,23 +2,44 @@ package com.leverx.course;
 
 public class Operators {
 
+    static int A = 9;  // 1001
+    static int B = 12; // 1100
+
     public static void main(String[] args) {
 
+        System.out.println(A + " in binary: " + Integer.toBinaryString(A));
+        System.out.println(B + " in binary: " + Integer.toBinaryString(B));
+
+        System.out.println("================BITWISE OPERATORS================");
+
         bitwiseAnd();
-
+        bitwiseOr();
+        bitwiseExclusiveOr();
+        bitwiseNot();
     }
 
-    static void bitwiseAnd() {
+    static void bitwiseAnd() { // returns 1 if both are 1, otherwise 0
 
-        int a = 9; // 1001
-        int b = 12; // 1100
-
-        System.out.println(a + " in binary: " + Integer.toBinaryString(a));
-        System.out.println(b + " in binary: " + Integer.toBinaryString(b));
-
-        int result = a & b; // RESULT: 8 => if both bits are 1 then its 1, otherwise 0,
+        int result = A & B; // RESULT: 8 => if both bits are 1 then its 1, otherwise 0,
                             // so answer is 1000, which is 8 in decimal
-        System.out.println(result);
+        System.out.println("Bitwise & (and): \nbinary -> " + Integer.toBinaryString(result) + "\ndecimal -> " + result);
     }
 
+    static void bitwiseOr() { // returns 1 if one of them is 1, if both 0 then returns 0
+
+        int result = A | B; // RESULT: 1101 -> 13
+        System.out.println("Bitwise | (or): \nbinary -> " + Integer.toBinaryString(result) + "\ndecimal -> " + result);
+    }
+
+    static void bitwiseExclusiveOr() { // return 1 only if exactly one of them is 1, otherwise 0
+
+        int result = A ^ B;
+        System.out.println("Bitwise ^ (exclusive OR): \nbinary -> " + Integer.toBinaryString(result) + "\ndecimal -> " + result);
+    }
+
+    static void bitwiseNot() { //flips each bit of its operand, it inverts 1 to 0 and 0 to 1
+
+        int result = ~A;
+        System.out.println("Bitwise ~ (NOT): \nbinary -> " + Integer.toBinaryString(result) + "\ndecimal -> " + result);
+    }
 }
