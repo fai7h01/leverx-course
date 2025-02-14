@@ -30,7 +30,7 @@ public class BitwiseOperators {
         System.out.println("Bitwise & (and): \nbinary -> " + Integer.toBinaryString(result) + "\ndecimal -> " + result);
     }
 
-    static void bitwiseOr() { // returns 1 if one of them is 1, if both 0 then returns 0
+    static void bitwiseOr() { // returns 1 if one of them is 1, if both 0 or 1 then returns 0
 
         int result = A | B; // RESULT: 1101 -> 13
         System.out.println("Bitwise | (or): \nbinary -> " + Integer.toBinaryString(result) + "\ndecimal -> " + result);
