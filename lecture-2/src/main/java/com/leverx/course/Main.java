@@ -1,8 +1,8 @@
 package com.leverx.course;
 
-import com.leverx.course.sealedclasses.Car;
-import com.leverx.course.sealedclasses.Service;
-import com.leverx.course.sealedclasses.Truck;
+import com.leverx.course.sealedclasses.interfaces.Car;
+import com.leverx.course.sealedclasses.interfaces.Service;
+import com.leverx.course.sealedclasses.interfaces.Truck;
 
 public class Main {
     public static void main(String[] args) {
