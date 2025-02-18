@@ -5,6 +5,9 @@ import com.leverx.course.sealedclasses.Service;
 import com.leverx.course.sealedclasses.Truck;
 import com.leverx.course.sealedclasses.Vehicle;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -34,6 +37,17 @@ public class Main {
             int maxServiceIntervalInMonths = service.getMaxServiceIntervalInMonths();
             System.out.println(maxServiceIntervalInMonths);
         }
+
+        List<String> names = new ArrayList<>() {
+            @Override
+            public boolean add(String s) {
+                System.out.println("Name added to list");
+                return super.add(s);
+            }
+        };
+
+        names.add("Java");
+
 
     }
 
