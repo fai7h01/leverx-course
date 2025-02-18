@@ -1,4 +1,4 @@
-package com.leverx.course.sealedclasses.interfaces;
+package com.leverx.course.sealedclasses;
 
 public sealed interface Service permits Car,  Truck {
 

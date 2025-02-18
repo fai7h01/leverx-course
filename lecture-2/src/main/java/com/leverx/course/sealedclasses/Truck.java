@@ -1,4 +1,4 @@
-package com.leverx.course.sealedclasses.interfaces;
+package com.leverx.course.sealedclasses;
 
 public final class Truck implements Service{
 
