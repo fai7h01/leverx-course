@@ -27,6 +27,14 @@ public class User implements Cloneable{
         return Objects.hash(name, age);
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
     public User clone() {
         try {
             return (User) super.clone();
