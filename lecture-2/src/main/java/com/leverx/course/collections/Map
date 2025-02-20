@@ -1,0 +1,19 @@
+Common methods:
+put(K key, V value)
+get(K key)
+remove(K key)
+containsKey(K key)
+containsValue(V value)
+keySet() -> returns set of keys
+values() -> returns values as a collection
+entrySet() -> returns set of entries (Set<Map.Entry<K,V>>)
+size()
+clear()
+isEmpty()
+
+Implementations:
+HashMap -> O(1) for get and put, not synchronized, not thread safe, fast look ups, allows null key
+LinkedHashMap -> insertion order preserved, allows null key, not thread safe, slightly slower than hashmap
+TreeMap -> sorted keys, does not allow null key, not thread safe, slower takes O(log n)
+HashTable -> thread safe, slower, not ordered, does not allow null key
+ConcurrentHashMap -> not ordered, does not allow null key, thread safe and better than hashtable, faster, better concurrency
