@@ -1,10 +1,9 @@
 package com.leverx.course.collections;
 
-import java.util.Currency;
 import java.util.EnumSet;
 import java.util.Set;
 
-public class EnumSetExamples {
+public class EnumSetExample {
 
     enum Currency {USD, EUR, GEL}
 

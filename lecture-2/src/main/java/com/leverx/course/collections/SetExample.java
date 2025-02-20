@@ -2,7 +2,7 @@ package com.leverx.course.collections;
 
 import java.util.*;
 
-public class SetExamples {
+public class SetExample {
 
     public static void main(String[] args) {
 
