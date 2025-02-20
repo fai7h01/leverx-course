@@ -2,7 +2,7 @@ package com.leverx.course.collections;
 
 import java.util.*;
 
-public class CollectionFramework {
+public class Iterator {
 
     public static void main(String[] args) {
 
@@ -24,7 +24,7 @@ public class CollectionFramework {
 //            System.out.println(iterator.next());
 //        }
 
-        for (Iterator<String> iterator = collection.iterator(); iterator.hasNext();) {
+        for (java.util.Iterator<String> iterator = collection.iterator(); iterator.hasNext();) {
             if (iterator.next().equals("Luka")) {
                 iterator.remove();
             }
