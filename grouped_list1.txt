@@ -1,0 +1,31 @@
+magenta : 4265
+pink : 4353
+yellow : 4425
+turquoise : 4277
+cyan : 4321
+gold : 4439
+red : 4329
+fuchsia : 4399
+white : 4342
+olive : 4295
+ivory : 4400
+lavender : 4311
+azure : 4336
+plum : 4371
+tan : 4302
+mint green : 4346
+green : 4210
+lime : 4341
+salmon : 4382
+violet : 4316
+black : 4314
+teal : 4279
+grey : 4439
+orange : 4338
+sky blue : 4255
+blue : 4282
+purple : 4312
+silver : 4283
+indigo : 4308
+maroon : 4361
+orchid : 4333
