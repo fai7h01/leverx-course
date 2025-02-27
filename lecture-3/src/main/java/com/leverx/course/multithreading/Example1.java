@@ -49,5 +49,4 @@ Changes to a volatile variable are immediately visible to all threads.
 Ensures no instruction reordering for that variable.
 ✅ Synchronized Blocks (synchronized)
 Any changes before releasing a lock become visible to any thread acquiring the same lock.
-
  */
